@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumen5</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <section class="section1">
+        <header>
+            <div class="logo"><img src="./images/L5-logo-header.png" alt=""></div>
+            <nav>
+                <a href="#" class="wow" >Pricing</a>
+                <a href="#">Features</a>
+                <a href="#">Enterprise</a>
+                <a href="#">Learn</a>
+                <a id="login" href="#">Log in</a>
+                <a id="Signup" href="#">Sign up</a>
+            </nav>
+        </header>
+    </section>
+    <section class="section2">
+        <h1>HEllo</h1>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias quisquam odio deleniti quis enim! Perferendis fugit dolores inventore, quas totam deleniti enim possimus officia? Et dolorum tempora ratione similique velit.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci expedita rerum non distinctio sequi consequuntur explicabo repellendus pariatur maiores? Accusamus, ullam? Ut ratione officiis ipsa, corporis dolor ad mollitia fugit?
+    </section>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+    	$(document).ready(function(){
+    		$(window).on('scroll', function(){
+    			if ($(window).scrollTop()) {
+                    $("header").addClass('bgc');
+    			}else{
+                    $("header").removeClass('bgc');
+    			}
+    		});
+    	});
+    </script>
+</body>
+
+</html>
+
+<script src="./js/index.js"></script>
