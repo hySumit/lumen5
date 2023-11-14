@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+  }
+  
+  section {
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    /* justify-content: space-between; */
+  }
+  .left {
+      position: fixed;
+    width: 45%;
+    padding: 0;
+    background-size: cover;
+    height: 100%;
+  }
+  .imgleft {
+    background: url(https://storage.googleapis.com/lumen5-site-images/website-assets/login-bg3.png);
+    background-repeat: no-repeat;
+  
+    height: 100vh;
+    /* height: 100%; */
+    width: 70%;
+    max-width: 558px !important;
+    background-size: cover;
+  }
+ 
+  .logo {
+    margin: 30px 0 0 40px;
+    width: 160px;
+    /* margin: auto; */
+  }
+  .h1 {
+    color: #ffff;
+    font-size: 36px;
+    width: 80%;
+    margin: auto;
+    margin-top: 4vh;
+    /* margin-left: ; */
+  }
+  .h1 > .strong1 {
+    text-align: center;
+  }
+  .img-logo {
+    /* margin: auto;
+        */
+    width: 50%;
+    margin-left: 1vh;
+  }
+  .strong2 {
+    margin-top: 2vh;
+    font-size: 28px;
+    font-weight: 500;
+    /* line-height: 1px; */
+  }
+  .comps {
+    margin-top: 4vh;
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-around;
+    flex-direction: row;
+    /* margin: auto; */
+    gap: 6em;
+  }
+  .div2 {
+    display: flex;
+    flex-direction: column;
+    /* width: ; */
+    background-size: cover;
+    height: 10vh;
+    /* width: 40%; */
+  }
+  .div2 > img {
+    width: 80px;
+    /* height: 11vh; */
+  }
+  .div3 {
+    /* height: 10vh; */
+    display: flex;
+    flex-direction: column;
+  }
+  .div3 > img {
+    width: 72px;
+  }
+  .st-log {
+    margin: 4vh 0 0 -10vh;
+    font-size: 34px;
+    color: #24282f;
+    /* line-height: 1rem; */
+    margin: auto;
+  }
+  .form {
+    /* display: block; */
+    /* border: 1px solid red; */
+    width: 100%;
+    margin-top: 10vh;
+  }
+  input {
+    /* border: none; */
+    outline: none;
+    border: 1px solid;
+    border-color: #9faabf;
+    /* padding: 10px 20em 10px 20em; */
+    border-radius: 5px;
+    /* text-align: left; */
+    width: 90%;
+    height: 30px;
+    font-size: 15px;
+    margin: 15px 15px 15px 15px;
+    /* padding: 9px; */
+    padding: 3px;
+  }
+  
+  
+  form > label {
+    /* text-align: center;
+       */
+    margin-left: 10px;
+    font-size: 13px;
+  }
+  #submit {
+    background-color: #5846F6;
+    background-repeat: no-repeat;
+    color: white;
+    width: 91.7%;
+    height: 45px;
+    /* padding: 20px; */
+    border-radius: 20px;
+    border: 1px solid;
+  }
+  #submit:hover{
+      background-color: #493acc;
+      transition: background-color 0.3s ease;
+  }
+  
+  .bottom-sign{
+      text-align: center;
+      display: flex;
+      align-items: center;
+      /* margin: auto; */
+      justify-content: space-between;
+  }
+  /* .bottom-sign>hr{
+      width: 50vh;
+  
+      margin: auto;
+  } */
+  .hr1{
+      margin-left: 15vh;
+      width: 40vh;
+  }
+  .hr2{
+      width: 40vh;
+      margin-right: 20vh;
+  }
+  /* .column{
+      width: 51%;
+  } */
+  .right{
+      height: 110vh;
+      /* position: absolute; */
+      margin-left: 90vh;
+  }
+  .hrbox{
+      margin: auto;
+      width: 100%;
+      margin-top: 5vh;
+  }
+  
+  .signupbtns{
+      width: 93%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 5vh;
+  }
+  
+  .signupbtns>.btn1{
+      /* border: none; */
+      border: 1px solid #5846F6;
+      background-color: white;
+      margin: 0 0 0 10px;
+      margin-top: 10px;
+      border-radius: 20px;
+      height: 40px;
+      color: #493acc;
+      font-size: 15px;
+      font-weight: 300;
+  }
+  
+  .signupbtns>.btn2{
+      /* border: none; */
+      border: 1px solid #818181;
+      background-color: white;
+      margin: 0 0 0 10px;
+      margin-top: 10px;
+      border-radius: 20px;
+      height: 40px;
+      font-size: 15px;
+      font-weight: 300;
+      color: #444444;
+  }
+  .acc{
+      margin-top: 5vh;
+      margin-left: 2vh;
+  }
+  .acc>p{
+      font-size: 15px;
+      color: #444444;
+  }
+  .acc>p>span>a{
+      font-weight: 600;
+      color: #493acc;
+  }
+  
+  .mg{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: 12px;
+    color: #777777;
+    font-weight: 100;
+  }
+
+.mg>span>a{
+    color:#777777 ;
+}
+  
