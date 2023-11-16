@@ -1,43 +1,39 @@
 let form = document.getElementById("form");
 let nameInput = document.getElementById("name");
 let emailInput = document.getElementById("email");
-let paassInput = document.getElementById("psd");
+// let paassInput = document.getElementById("psd");
 
-form.addEventListener("submit", function (user) {
-  user.preventDefault();
-
-  let userDetails = {
-    email: emailInput.value,
-    password: paassInput.value,
-    // name: nameInput.value,
-  };
-  // localStorage.setItem("userDetails",JSON.stringify(userDetails));
-  let loginData = JSON.parse(localStorage.getItem("userDetails")) || {};
-
-  if (
-    userDetails.email === loginData.email &&
-    userDetails.password === loginData.password
-  ) {
-    localStorage.setItem("isAuth", "Authenticated")
-
-    alert("Welcome to the site");
-  }
-  else{
-    alert("wrong credentials")
-  }
-
-});
+// let form =document.getElementById("form")
+let email = document.getElementById("email")
+let password = document.getElementById("password")
+form.addEventListener("submit",function(event){
+    event.preventDefault()
+    let details ={
+        email : email.value,
+        password  :password.value
+    };
+        let savedetails = JSON.parse(localStorage.getItem("details")) || {};
+    if (details.email ===savedetails.email &&
+     details.password === savedetails.password){
+        localStorage.setItem("isAuth", "Authenticated")
+        alert("Login Successfull")
+        window.location.href = '../pages/dashboard.html'
+    }
+    else{
+        alert("Wrong credentials")
+      }
+})
 
 // redirect >>>>>>> 
 
-let isAuth = localStorage.getItem("isAuth") || "Not Authenticated";
+// let isAuth = localStorage.getItem("isAuth") || "Not Authenticated";
 
-if (isAuth !=="Authenticated"){
-    window.location.href = '../pages/dashboard.html'
-}
-else{
-    localStorage.clear()
-}
+// if (isAuth !=="Authenticated"){
+//     window.location.href = '../pages/dashboard.html'
+// }
+// else{
+//     localStorage.clear()
+// }
 
 
 

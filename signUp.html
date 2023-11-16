@@ -1,112 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <script src="https://kit.fontawesome.com/f0568d9fe7.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign up Lumen5</title>
-    <link rel="stylesheet" href="./style/signup.css">
     <link rel="icon" type="image/x-icon" href="./images/fevicon.png">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Signup page</title>
+    <link rel="stylesheet" href="./style/signup.css">
+
 </head>
-
 <body>
-    <section id="section">
-        <div class="column left">
-            <div class="imgleft">
-                <div class="img-logo"><img src="./images/L5-logo-white.png" alt="Lumen5 logo" class="logo"></div>
+    <div class="side">
+        <a href="./index.html">
+            <img src="https://storage.googleapis.com/lumen5-site-images/L5-logo/logo-white_266x156.png">
+        </a>
+        <h1>Grow your brand
+            and drive demand
+            with video at scale</h1>
+        <h2>Join over 1,000,000 companies
+            using Lumen5 to tell their stories.</2>
 
-                <div class="h1">
-                    <strong class=".strong1">
-                        Grow your brand
-                        <br>
-                        and drive demand
-                        <br>
-                        with video at scale
-                    </strong>
-                    <p class="strong2">
-                        Join over 1,000,000 
-                        <br>
-                        companies 
-                        <br>
-                        using Lumen5 to tell their
-                        <br>
-                         stories.
-                    </p>
+            <div style="display: grid; grid-template-columns: repeat(2,1fr); grid-column-gap: 100px;">
+              <div>
+                <img  src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-seimens-white.png" alt="SIEMEN">
+              </div>
+                <div>
+                    <img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-sf-white.png" alt="salesforce">
                 </div>
-                <div class="comps">
-                    <div class="div2">
-                        <img src="./images/logo-seimens-white.png" alt="seimens logo">
+                <div>
+                    <img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-merck-white.png" alt="MERCH">
+                </div>
+                <div>
+                    
+                <img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-sap-white.png" alt="SAP">
+                </div>
+                <div>
+                    
+                <img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-kpmg-white.png" alt="KPMG">
+                </div>
 
-                        <img src="./images/logo-merck-white.png" alt="merck logo">
-
-                        <img src="./images/logo-kpmg-white.png" alt="">
-                    </div>
-                    <div class="div3">
-                        <img src="./images/logo-sf-white.png" alt="">
-
-                        <img src="./images/logo-sap-white.png" alt="">
-
-                        <img src="./images/logo-cisco-white.png" alt="">
-                    </div>
+                <div>  
+                <img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-cisco-white.png" alt="CISSO">
                 </div>
             </div>
-        </div>
-        <div class="column right">
-            
-            
-            <div class="form">
-                <div class="st-log">
-                    <strong>Get started with a free account</strong>
-                </div>
-                <form action="" id="form">
-                    <label for="">FULL NAME</label>
-                    <input required type="text" id="name">
-                    <label for="">WORK EMAIL</label>
-                    <!-- <p>WORK EMAIL</p> -->
-                    <input required type="email" name="" id="email">
-                    <label for="">PASSWORD</label>
-                    <!-- <p>PASSWORD</p> -->
-                    <input required type="password" name="" id="psd">
-                    <!-- <span class="material-symbols-outlined">
-                        visibility
-                        </span> -->
-                    <input type="submit" value="Create account" id="submit">
-                </form>
+    </div>
 
-            </div>
-            <div class="hrbox">
-                <div class="bottom-sign">
-                <hr class="hr1">
-                <p>OR</p>
-                <hr class="hr2">
-            </div></div>
+    <div class="main">
+        <img src="https://storage.googleapis.com/lumen5-site-images/L5-logo/L5-logo-color-default.svg">
+       
+<form id="form" class="form">
+    <h1 style="margin-bottom: 20px; margin-top: 10px;">
+        Get started with a free account
+    </h1>
+ 
+   <label for="">FULL NAME</label>
+   <input required type="text" id="name">
 
-            
-            <div class="signupbtns">
-                <button class="btn1">Sign up wirh Facebook</button>
-                <!-- <button class="btn2" >Log in via SSO</button> -->
-            </div>
-            <div class="acc">
-                <p>Already have a Lumen5 account? <span>
-                    <a href="login.html"> Log in</a>
-                </span></p>
-                <h5 class="mg">By clicking “Create account” you agree to Lumen5’s 
-                    <span><a href="https://lumen5.com/terms/"> 
-                        Terms of Use </a></span>
-                    and 
-                    <span>
-                        <a href="https://lumen5.com/privacy/">Privacy Policy
-                            .</a>
-                    </span>
-                    .</h5>
-            </div>
-            <footer>
-                
-            </footer>
-        </div>
-    </section>
+   <label  for="">WORK EMAIL</label>
+   <input required type="email" id="email">
+
+   <label for="">PASSWORD</label>
+<input required type="password" id="password">
+
+ <ul>
+    <li>One lowercase character</li>
+    <li>8 characters minimum</li>
+    <li>One uppercase character</li>
+    <li>Contains a number or symbol</li>
+</ul> 
+<input id="submit" type="submit" value="Create account">
+<span class="line"><hr>OR<hr></span>
+<a href="#" class="facebook"><i class="fa-brands fa-square-facebook"></i> Sign up with Facebook</a>
+
+<div class="acc" style="font-size: 15px;">
+
+    Already have a Lumen5 account? <a href="./login.html" class="lg">Login</a>
+</div>
+
+<div style="color: #777777; font-size: 13px;">
+    By clicking “Create account” I agree to Lumen5’s 
+Terms of Use 
+and 
+Privacy Policy
+.
+</div>
+</form>
+
+
+    </div>
 </body>
+</html>
 
-</html> 
-<script src="./js/signup.js" ></script>
+<script src="./js/signup.js"></script>

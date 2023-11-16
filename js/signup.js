@@ -1,19 +1,19 @@
-let form = document.getElementById("form");
-let nameInput = document.getElementById('name');
-let emailInput = document.getElementById('email');
-let paassInput = document.getElementById('psd');
 
-form.addEventListener('submit',function(user){
-    user.preventDefault();
 
-    let userDetails = {
-        email:emailInput.value,
-        password: paassInput.value,
-        name: nameInput.value,
-
-    }
-    localStorage.setItem("userDetails",JSON.stringify(userDetails));
-
+let form =document.getElementById("form")
+console.log(form)
+let name1 = document.getElementById("name")
+let email = document.getElementById("email")
+let password = document.getElementById("password")
+form.addEventListener("submit",function(event){
+    event.preventDefault()
+    let details ={
+        name:name1.value,
+        email : email.value,
+        password  :password.value
+    };
+    localStorage.setItem("details", JSON.stringify(details));
+    alert("Account Created Succesfully")
 })
 
 
@@ -23,9 +23,9 @@ form.addEventListener('submit',function(user){
 
 
 
-let email = document.getElementById("email");
-let password = document.getElementById("psd");
-let name1 = document.getElementById("name");
+// let email = document.getElementById("email");
+// let password = document.getElementById("psd");
+// let name1 = document.getElementById("name");
 
 document.addEventListener('click', function (event) {
     if (event.target === email) {
@@ -53,3 +53,10 @@ document.addEventListener('click',function(event3){
         name1.style.borderColor = "#9FAABF"
     }
 })
+
+
+
+
+
+
+
