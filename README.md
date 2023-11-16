@@ -26,7 +26,7 @@ This project is a simplified Lumen 5 clone, crafted using HTML, CSS, and JavaScr
 ## Screenshots
 
 
-
+## Home Page
 ![Home Page](https://github.com/hySumit/lumen5/assets/112721086/7c09a703-ea6c-489d-8a80-bf6550fa446b)
 
 
